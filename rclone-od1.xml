@@ -1,0 +1,10 @@
+<service>
+    <startmode>Automatic</startmode>
+    <id>rclone-od1</id>
+    <name>rclone od1 service</name>
+    <description>运行rclone挂载</description>
+    <workingdirectory>C:\Users\kogeki\scoop\shims</workingdirectory>
+    <log mode="none"/>
+    <executable>rclone</executable>
+    <arguments>mount Onedrive-往生堂:/ X: --network-mode</arguments>
+</service>
